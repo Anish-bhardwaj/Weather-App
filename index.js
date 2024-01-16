@@ -7,7 +7,7 @@ const loadingScreen=document.querySelector(".loading-container");
 const userInfoContainer=document.querySelector(".user-info-container");
 const error_container=document.querySelector(".error-container");
 let currentTab=userTab;
-const API_KEY="62447fe7392df29e32a7728d77d2e645";
+const API_KEY=*;//Replace API_KEY with your OpenWeather APIKEY
 currentTab.classList.add("current-tab");
 getFromSessionStorage();
 
